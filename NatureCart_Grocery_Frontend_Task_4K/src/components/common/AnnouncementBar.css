@@ -1,0 +1,18 @@
+.announcement-bar {
+  background-color: var(--color-primary-dark);
+  color: var(--color-text-light);
+  font-size: var(--font-size-xs);
+  padding: 0.35rem 0;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.announcement-icon {
+  color: var(--color-primary-light);
+}
+
+@media (max-width: 768px) {
+  .announcement-right {
+    display: none;
+  }
+}

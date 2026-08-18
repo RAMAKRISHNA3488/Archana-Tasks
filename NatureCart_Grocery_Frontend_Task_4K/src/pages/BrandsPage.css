@@ -1,0 +1,39 @@
+.brands-page-container {
+  width: 100%;
+}
+
+.brands-hero-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f4fbf5 100%);
+  border: 1px solid var(--color-border);
+}
+
+.brands-hero-stats {
+  box-shadow: var(--shadow-sm);
+}
+
+.brand-select-list {
+  scrollbar-width: thin;
+}
+
+.brand-list-item {
+  width: 100%;
+  border: none;
+  background: none;
+  text-align: left;
+  color: var(--color-text-secondary);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+}
+
+.brand-list-item:hover {
+  background-color: var(--color-primary-soft);
+  color: var(--color-primary-dark);
+}
+
+.brand-list-item.selected {
+  background-color: var(--color-primary-soft);
+  color: var(--color-primary-dark);
+  border-left: 3px solid var(--color-primary);
+  font-weight: 700;
+}
+

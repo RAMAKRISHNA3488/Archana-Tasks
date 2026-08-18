@@ -1,0 +1,10 @@
+.product-not-found-container {
+  min-height: 400px;
+}
+
+.not-found-icon-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-bg-cream);
+}

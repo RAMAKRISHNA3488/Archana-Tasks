@@ -1,0 +1,30 @@
+.filter-chips-wrapper {
+  min-height: 38px;
+}
+
+.filter-chip-badge {
+  background-color: var(--color-primary-soft);
+  color: var(--color-primary-dark);
+  border: 1px solid rgba(46, 125, 50, 0.2);
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+}
+
+.chip-remove-btn {
+  color: var(--color-primary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+}
+
+.chip-remove-btn:hover {
+  color: var(--color-danger);
+}
+
+.clear-all-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}

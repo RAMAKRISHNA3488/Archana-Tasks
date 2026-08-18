@@ -1,0 +1,60 @@
+.checkout-progress-bar {
+  box-shadow: var(--shadow-sm);
+}
+
+.checkout-step-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.step-badge {
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.checkout-step-item.completed .step-badge {
+  background-color: var(--color-primary-dark);
+  color: white;
+}
+
+.checkout-step-item.completed .step-label {
+  color: var(--color-primary-dark);
+}
+
+.checkout-step-item.active .step-badge {
+  background-color: var(--color-primary);
+  color: white;
+  box-shadow: 0 0 0 3px var(--color-primary-soft);
+}
+
+.checkout-step-item.active .step-label {
+  color: var(--color-primary-dark);
+}
+
+.checkout-step-item.upcoming .step-badge {
+  background-color: var(--color-bg-cream);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+}
+
+.checkout-step-item.upcoming .step-label {
+  color: var(--color-text-muted);
+}
+
+.step-connector-line {
+  flex: 1;
+  height: 2px;
+  background-color: var(--color-border);
+  margin: 0 12px;
+}
+
+.step-connector-line.completed {
+  background-color: var(--color-primary);
+}

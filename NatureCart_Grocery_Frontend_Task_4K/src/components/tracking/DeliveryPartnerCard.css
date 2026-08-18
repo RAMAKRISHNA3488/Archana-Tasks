@@ -1,0 +1,11 @@
+.delivery-partner-card {
+  box-shadow: var(--shadow-sm);
+}
+
+.map-grid-bg {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(var(--color-border) 1px, transparent 1px);
+  background-size: 12px 12px;
+  opacity: 0.5;
+}

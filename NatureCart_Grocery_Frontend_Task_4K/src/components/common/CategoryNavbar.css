@@ -1,0 +1,115 @@
+.category-navbar {
+  background-color: var(--color-primary-soft);
+  border-bottom: 1px solid var(--color-border);
+  position: relative;
+  z-index: 90;
+}
+
+.category-dropdown-wrapper {
+  position: relative;
+}
+
+.category-dropdown-btn {
+  background-color: var(--color-primary-dark);
+  color: white;
+  padding: 0.65rem 1.25rem;
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  transition: background-color var(--transition-fast);
+}
+
+.category-dropdown-btn:hover {
+  background-color: var(--color-primary-deep);
+}
+
+.chevron-icon {
+  transition: transform var(--transition-fast);
+}
+
+.chevron-icon.open {
+  transform: rotate(180deg);
+}
+
+.category-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 260px;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  padding: 0.5rem 0;
+  z-index: 100;
+}
+
+.dropdown-item {
+  padding: 0.6rem 1rem;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+  transition: background-color var(--transition-fast);
+}
+
+.dropdown-item:hover {
+  background-color: var(--color-primary-soft);
+  color: var(--color-primary-dark);
+  font-weight: 600;
+}
+
+.dropdown-item-count {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.nav-desktop-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-text-primary);
+  padding: 0.65rem 0.6rem;
+  position: relative;
+  transition: color var(--transition-fast);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: var(--color-primary);
+  border-radius: 3px 3px 0 0;
+}
+
+.offer-link {
+  color: var(--color-discount-red);
+}
+
+.offer-tag-icon {
+  color: var(--color-discount-red);
+}
+
+.badge-mini-hot {
+  background-color: var(--color-discount-red);
+  color: white;
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 1px 4px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,10 @@
+.cart-summary-sticky-card {
+  position: sticky;
+  top: 90px;
+  box-shadow: var(--shadow-sm);
+}
+
+.checkout-cta-btn {
+  font-size: var(--font-size-base);
+  padding: 0.85rem;
+}

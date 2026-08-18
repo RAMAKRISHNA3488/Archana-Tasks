@@ -1,0 +1,31 @@
+.cart-skeleton-row {
+  min-height: 80px;
+}
+
+.skeleton-box-thumb {
+  width: 60px;
+  height: 60px;
+  background-color: #cbd5e1;
+  border-radius: var(--radius-md);
+}
+
+.skeleton-box-title {
+  height: 18px;
+  width: 140px;
+  background-color: #cbd5e1;
+  border-radius: var(--radius-sm);
+}
+
+.skeleton-box-sub {
+  height: 14px;
+  width: 80px;
+  background-color: #e2e8f0;
+  border-radius: var(--radius-sm);
+}
+
+.skeleton-box-btn {
+  height: 36px;
+  width: 100px;
+  background-color: #cbd5e1;
+  border-radius: var(--radius-md);
+}

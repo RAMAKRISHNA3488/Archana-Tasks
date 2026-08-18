@@ -1,0 +1,12 @@
+.category-section {
+  background-color: var(--color-bg-cream);
+}
+
+.category-section-container {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: 1.5rem 2rem;
+  box-shadow: var(--shadow-sm);
+  overflow-x: auto;
+}

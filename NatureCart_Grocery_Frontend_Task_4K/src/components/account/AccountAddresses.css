@@ -1,0 +1,11 @@
+.account-addresses-container {
+  width: 100%;
+}
+
+.address-card {
+  transition: all var(--transition-fast);
+}
+
+.address-card:hover {
+  box-shadow: var(--shadow-sm);
+}

@@ -1,0 +1,70 @@
+/* OrderActions Component Styles */
+
+.order-actions-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-action-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--color-primary, #2e7d32);
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 0.9375rem;
+  padding: 0.875rem 1.25rem;
+  border-radius: var(--radius-md, 8px);
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(46, 125, 50, 0.25);
+}
+
+.btn-action-primary:hover {
+  background-color: var(--color-primary-dark, #1b5e20);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(46, 125, 50, 0.35);
+}
+
+.secondary-actions-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.btn-action-secondary,
+.btn-action-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  background-color: #ffffff;
+  color: var(--color-text-primary, #1e293b);
+  border: 1.5px solid var(--color-border, #e2e8f0);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  padding: 0.7rem 0.85rem;
+  border-radius: var(--radius-md, 8px);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-action-secondary:hover,
+.btn-action-outline:hover {
+  border-color: var(--color-primary, #2e7d32);
+  color: var(--color-primary, #2e7d32);
+  background-color: var(--color-primary-soft, #e8f5e9);
+  transform: translateY(-1px);
+}
+
+@media print {
+  .print-hide-btn {
+    display: none !important;
+  }
+}

@@ -1,0 +1,58 @@
+.order-progress-tracker-card {
+  width: 100%;
+}
+
+.tracker-step-node {
+  flex: 1;
+}
+
+.tracker-icon-badge {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+}
+
+.tracker-icon-badge.completed {
+  background-color: var(--color-primary-dark);
+  color: white;
+}
+
+.tracker-step-node.completed .tracker-label {
+  color: var(--color-primary-dark);
+}
+
+.tracker-icon-badge.current {
+  background-color: var(--color-primary);
+  color: white;
+  box-shadow: 0 0 0 4px var(--color-primary-soft);
+}
+
+.tracker-step-node.current .tracker-label {
+  color: var(--color-primary-dark);
+}
+
+.tracker-icon-badge.upcoming {
+  background-color: var(--color-bg-cream);
+  color: var(--color-text-muted);
+  border: 1.5px solid var(--color-border);
+}
+
+.tracker-step-node.upcoming .tracker-label {
+  color: var(--color-text-muted);
+}
+
+.tracker-line {
+  flex: 1;
+  height: 2px;
+  background-color: var(--color-border);
+  margin: 0 4px;
+  margin-bottom: 20px;
+}
+
+.tracker-line.completed {
+  background-color: var(--color-primary);
+}

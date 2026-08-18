@@ -1,0 +1,15 @@
+.trust-section {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .trust-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .trust-section {
+    grid-template-columns: 1fr;
+  }
+}

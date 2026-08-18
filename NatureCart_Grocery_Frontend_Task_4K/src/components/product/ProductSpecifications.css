@@ -1,0 +1,11 @@
+.product-specs-card {
+  box-shadow: var(--shadow-sm);
+}
+
+.specs-row {
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.specs-row:last-child {
+  border-bottom: none;
+}
