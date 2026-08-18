@@ -16,6 +16,9 @@ import LoginPage from '../pages/LoginPage';
 import SignupPage from '../pages/SignupPage';
 import ForgotPasswordPage from '../pages/ForgotPasswordPage';
 import ContactPage from '../pages/ContactPage';
+import PrivacyPolicyPage from '../pages/PrivacyPolicyPage';
+import TermsPage from '../pages/TermsPage';
+import ShippingPolicyPage from '../pages/ShippingPolicyPage';
 import ProtectedRoute from '../components/auth/ProtectedRoute';
 import NotFoundPage from '../pages/NotFoundPage';
 
@@ -46,6 +49,12 @@ export function AppRoutes() {
       <Route path="/signup" element={<SignupPage />} />
       <Route path="/forgot-password" element={<ForgotPasswordPage />} />
       <Route path="/contact" element={<ContactPage />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+      <Route path="/privacy" element={<PrivacyPolicyPage />} />
+      <Route path="/terms" element={<TermsPage />} />
+      <Route path="/terms-and-conditions" element={<TermsPage />} />
+      <Route path="/shipping-policy" element={<ShippingPolicyPage />} />
+      <Route path="/shipping" element={<ShippingPolicyPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );

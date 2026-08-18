@@ -230,11 +230,11 @@ export function Footer() {
           <p>© {currentYear} NatureCart. All rights reserved.</p>
 
           <div className="footer-legal-links flex items-center gap-md flex-wrap">
-            <a href="#privacy" onClick={e => e.preventDefault()}>Privacy Policy</a>
+            <Link to="/privacy-policy">Privacy Policy</Link>
             <span className="text-muted">|</span>
-            <a href="#terms" onClick={e => e.preventDefault()}>Terms & Conditions</a>
+            <Link to="/terms">Terms & Conditions</Link>
             <span className="text-muted">|</span>
-            <a href="#shipping" onClick={e => e.preventDefault()}>Shipping Policy</a>
+            <Link to="/shipping-policy">Shipping Policy</Link>
           </div>
         </div>
       </div>
