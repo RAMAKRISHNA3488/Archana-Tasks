@@ -1,0 +1,22 @@
+.delivery-options-section {
+  box-shadow: var(--shadow-sm);
+}
+
+.delivery-option-card {
+  background-color: var(--color-surface);
+  transition: all var(--transition-fast);
+}
+
+.delivery-option-card.selected {
+  border-color: var(--color-primary);
+  background-color: var(--color-bg-cream);
+  box-shadow: 0 0 0 1px var(--color-primary);
+}
+
+.option-icon-box {
+  background-color: var(--color-bg-cream);
+}
+
+.option-icon-box.active {
+  background-color: var(--color-primary-soft);
+}

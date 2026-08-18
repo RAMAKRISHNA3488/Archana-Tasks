@@ -1,0 +1,23 @@
+.breadcrumb-nav {
+  color: var(--color-text-muted);
+}
+
+.breadcrumb-link {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.breadcrumb-link:hover {
+  color: var(--color-primary);
+}
+
+.breadcrumb-icon {
+  color: var(--color-text-muted);
+}
+
+.breadcrumb-current {
+  color: var(--color-primary-dark);
+  font-weight: 700;
+}

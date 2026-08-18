@@ -1,0 +1,154 @@
+/* OrderInfoCards Component Styles */
+
+.order-info-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.order-info-card {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border, #e2e8f0);
+  border-radius: var(--radius-xl, 16px);
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.info-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--color-border-light, #edf2f7);
+}
+
+.info-header-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-md, 8px);
+  background-color: var(--color-primary-soft, #e8f5e9);
+  color: var(--color-primary, #2e7d32);
+}
+
+.info-header-title {
+  font-size: 0.9375rem;
+  font-weight: 800;
+  color: var(--color-text-primary, #1e293b);
+  margin: 0;
+}
+
+.info-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.recipient-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.recipient-name {
+  font-size: 0.9375rem;
+  font-weight: 800;
+  color: var(--color-text-primary, #1e293b);
+}
+
+.address-type-tag {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--color-primary-soft, #e8f5e9);
+  color: var(--color-primary-dark, #1b5e20);
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-sm, 4px);
+  letter-spacing: 0.03em;
+}
+
+.address-line {
+  font-size: 0.84375rem;
+  color: var(--color-text-secondary, #475569);
+  margin: 0;
+  line-height: 1.45;
+}
+
+.landmark-text {
+  font-size: 0.78125rem;
+  color: var(--color-text-muted, #64748b);
+  margin: 0.2rem 0 0 0;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.phone-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8125rem;
+  color: var(--color-text-primary, #1e293b);
+  margin-top: 0.35rem;
+  padding-top: 0.35rem;
+  border-top: 1px dashed var(--color-border-light, #edf2f7);
+}
+
+.payment-method-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.payment-label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-text-muted, #64748b);
+}
+
+.payment-chip {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: #f1f5f9;
+  color: var(--color-text-primary, #1e293b);
+  border: 1px solid var(--color-border, #e2e8f0);
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-md, 6px);
+  letter-spacing: 0.04em;
+}
+
+.payment-status-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 0.85rem;
+  border-radius: var(--radius-md, 8px);
+  font-size: 0.78125rem;
+  font-weight: 700;
+  margin-top: 0.25rem;
+}
+
+.payment-status-box.is-cod {
+  background-color: #fefce8;
+  border: 1px solid #fef08a;
+  color: #854d0e;
+}
+
+.payment-status-box.is-paid {
+  background-color: var(--color-primary-soft, #e8f5e9);
+  border: 1px solid rgba(46, 125, 50, 0.2);
+  color: var(--color-primary-dark, #1b5e20);
+}
+
+@media (max-width: 768px) {
+  .order-info-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}

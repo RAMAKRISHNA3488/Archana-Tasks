@@ -1,0 +1,58 @@
+.product-detail-skeleton-wrapper {
+  min-height: 480px;
+}
+
+.skeleton-main-img-box {
+  width: 100%;
+  height: 320px;
+  background-color: #e2e8f0;
+  border-radius: var(--radius-lg);
+}
+
+.skeleton-thumb-box {
+  width: 64px;
+  height: 64px;
+  background-color: #cbd5e1;
+  border-radius: var(--radius-md);
+}
+
+.skeleton-badge-pill {
+  height: 20px;
+  width: 80px;
+  background-color: #e2e8f0;
+  border-radius: var(--radius-sm);
+}
+
+.skeleton-title-line {
+  height: 32px;
+  width: 75%;
+  background-color: #cbd5e1;
+  border-radius: var(--radius-md);
+}
+
+.skeleton-sub-line {
+  height: 16px;
+  width: 35%;
+  background-color: #e2e8f0;
+  border-radius: var(--radius-sm);
+}
+
+.skeleton-price-line {
+  height: 36px;
+  width: 50%;
+  background-color: #cbd5e1;
+  border-radius: var(--radius-md);
+}
+
+.skeleton-desc-line {
+  height: 14px;
+  width: 90%;
+  background-color: #e2e8f0;
+  border-radius: var(--radius-sm);
+}
+
+.skeleton-action-btn {
+  height: 48px;
+  background-color: #cbd5e1;
+  border-radius: var(--radius-md);
+}

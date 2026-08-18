@@ -1,0 +1,10 @@
+.empty-cart-card {
+  box-shadow: var(--shadow-sm);
+}
+
+.empty-cart-icon-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-bg-cream);
+}

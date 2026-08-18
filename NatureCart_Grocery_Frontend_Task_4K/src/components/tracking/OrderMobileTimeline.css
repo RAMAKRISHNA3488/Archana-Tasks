@@ -1,0 +1,40 @@
+.vertical-timeline-list {
+  position: relative;
+}
+
+.timeline-connector-vertical-bar {
+  position: absolute;
+  left: 13px;
+  top: 14px;
+  bottom: 14px;
+  width: 2px;
+  background-color: var(--color-border);
+  z-index: 1;
+}
+
+.timeline-dot-circle {
+  width: 26px;
+  height: 26px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.timeline-dot-circle.completed {
+  background-color: var(--color-primary-dark);
+  color: white;
+}
+
+.timeline-dot-circle.current {
+  background-color: var(--color-primary);
+  color: white;
+  box-shadow: 0 0 0 3px var(--color-primary-soft);
+}
+
+.timeline-dot-circle.upcoming {
+  background-color: var(--color-bg-cream);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+}

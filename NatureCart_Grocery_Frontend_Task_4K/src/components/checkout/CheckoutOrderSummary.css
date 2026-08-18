@@ -1,0 +1,8 @@
+.checkout-summary-card {
+  box-shadow: var(--shadow-sm);
+}
+
+.continue-payment-btn {
+  font-size: var(--font-size-base);
+  padding: 0.85rem;
+}

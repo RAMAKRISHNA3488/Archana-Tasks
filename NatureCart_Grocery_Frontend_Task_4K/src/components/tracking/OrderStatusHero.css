@@ -1,0 +1,11 @@
+.order-status-hero-card {
+  box-shadow: var(--shadow-sm);
+}
+
+.hero-status-circle {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,6 @@
+export const CART_CONFIG = {
+  FREE_DELIVERY_THRESHOLD: 499,
+  STANDARD_DELIVERY_FEE: 49,
+};
+
+export default CART_CONFIG;

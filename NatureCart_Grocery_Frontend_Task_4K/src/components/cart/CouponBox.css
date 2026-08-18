@@ -1,0 +1,8 @@
+.coupon-box-card {
+  box-shadow: var(--shadow-sm);
+}
+
+.coupon-input {
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}

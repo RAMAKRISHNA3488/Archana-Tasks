@@ -1,0 +1,33 @@
+.quantity-selector-box {
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background-color: var(--color-bg-cream);
+  overflow: hidden;
+  height: 44px;
+}
+
+.qty-change-btn {
+  padding: 0 14px;
+  height: 100%;
+  color: var(--color-text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color var(--transition-fast);
+}
+
+.qty-change-btn:hover:not(:disabled) {
+  background-color: var(--color-primary-soft);
+  color: var(--color-primary-dark);
+}
+
+.qty-change-btn:disabled {
+  color: #cbd5e1;
+  cursor: not-allowed;
+}
+
+.qty-value-display {
+  padding: 0 16px;
+  min-width: 36px;
+  text-align: center;
+}

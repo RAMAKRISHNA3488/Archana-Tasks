@@ -1,0 +1,12 @@
+.offer-section {
+  background-color: var(--color-bg-cream);
+}
+
+.view-all-link {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.view-all-link:hover {
+  text-decoration: underline;
+}

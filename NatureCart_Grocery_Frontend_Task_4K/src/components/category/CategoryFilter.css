@@ -1,0 +1,94 @@
+.category-filter-sidebar {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.filter-title {
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.price-slider {
+  width: 100%;
+  accent-color: var(--color-primary);
+  cursor: pointer;
+}
+
+.rating-filter-btn {
+  border: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  transition: all var(--transition-fast);
+}
+
+.rating-filter-btn:hover {
+  background-color: var(--color-bg-cream);
+}
+
+.rating-filter-btn.selected {
+  background-color: var(--color-primary-soft);
+  border-color: var(--color-primary);
+  font-weight: 600;
+}
+
+.disc-filter-chip {
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+}
+
+.disc-filter-chip:hover,
+.disc-filter-chip.active {
+  background-color: var(--color-primary-soft);
+  color: var(--color-primary-dark);
+  border-color: var(--color-primary);
+  font-weight: 700;
+}
+
+.brand-list-box {
+  padding-right: 4px;
+}
+
+.mobile-filter-bar {
+  display: none;
+  margin-bottom: 1rem;
+}
+
+.mobile-filter-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: var(--color-overlay);
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mobile-filter-drawer {
+  background-color: var(--color-surface);
+  width: 85%;
+  max-width: 320px;
+  height: 100%;
+  padding: 1.25rem;
+  overflow-y: auto;
+  box-shadow: var(--shadow-lg);
+}
+
+@media (max-width: 992px) {
+  .category-filter-sidebar {
+    display: none;
+  }
+
+  .mobile-filter-bar {
+    display: block;
+  }
+}

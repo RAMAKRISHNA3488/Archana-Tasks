@@ -1,0 +1,21 @@
+.address-form-box {
+  box-shadow: var(--shadow-sm);
+}
+
+.input-field.error {
+  border-color: var(--color-danger);
+  background-color: var(--color-discount-bg);
+}
+
+.type-pill-btn {
+  background-color: var(--color-bg-cream);
+  border-color: var(--color-border);
+  color: var(--color-text-secondary);
+  transition: all var(--transition-fast);
+}
+
+.type-pill-btn.active {
+  background-color: var(--color-primary-soft);
+  border-color: var(--color-primary);
+  color: var(--color-primary-dark);
+}

@@ -1,0 +1,79 @@
+/* Categories Page Responsive Layout Rules */
+.category-page-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.5rem 24px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Flex Layout: Sidebar + Flexible Product Grid Area */
+.category-main-flex {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.category-sidebar-col {
+  width: 260px;
+  min-width: 260px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  box-sizing: border-box;
+}
+
+.category-products-col {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Toolbar & Filter Chips Header Row */
+.category-toolbar-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 1024px) {
+  .category-sidebar-col {
+    width: 240px;
+    min-width: 240px;
+  }
+
+  .category-page-container {
+    padding: 1.25rem 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .category-main-flex {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .category-sidebar-col {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .category-page-container {
+    padding: 1rem 12px;
+  }
+}

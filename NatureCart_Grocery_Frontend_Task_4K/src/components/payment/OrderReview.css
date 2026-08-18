@@ -1,0 +1,10 @@
+.order-review-card {
+  box-shadow: var(--shadow-sm);
+}
+
+.compact-item-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+}

@@ -1,0 +1,8 @@
+.payment-summary-card {
+  box-shadow: var(--shadow-sm);
+}
+
+.pay-cta-btn {
+  font-size: var(--font-size-base);
+  padding: 0.85rem;
+}

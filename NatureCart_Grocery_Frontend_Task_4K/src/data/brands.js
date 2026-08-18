@@ -1,0 +1,32 @@
+export const BRANDS = [
+  { id: 'b1', name: 'Amul', slug: 'amul', category: 'Dairy & Breakfast', itemCount: 3, description: 'Utterly Butterly Delicious Dairy Products' },
+  { id: 'b2', name: 'Aashirvaad', slug: 'aashirvaad', category: 'Staples & Pulses', itemCount: 1, description: '100% MP Whole Wheat Atta & Staples' },
+  { id: 'b3', name: 'Tata', slug: 'tata', category: 'Staples & Beverages', itemCount: 2, description: 'Desh Ka Namak & Premium Gold Tea' },
+  { id: 'b4', name: 'Fortune', slug: 'fortune', category: 'Staples & Pulses', itemCount: 1, description: 'Healthy Cooking & Sunflower Oils' },
+  { id: 'b5', name: 'NatureFresh', slug: 'naturefresh', category: 'Fruits & Vegetables', itemCount: 8, description: 'Farm Fresh Organic Produce & Eggs' },
+  { id: 'b6', name: 'Britannia', slug: 'britannia', category: 'Dairy & Snacks', itemCount: 2, description: 'Whole Wheat Bread & Good Day Biscuits' },
+  { id: 'b7', name: 'Lay\'s', slug: 'lays', category: 'Snacks & Munchies', itemCount: 1, description: 'Classic Salted Potato Chips' },
+  { id: 'b8', name: 'Parle-G', slug: 'parle-g', category: 'Snacks & Munchies', itemCount: 1, description: 'India\'s Favorite Glucose Biscuits' },
+  { id: 'b9', name: 'Act II', slug: 'act-ii', category: 'Snacks & Munchies', itemCount: 1, description: 'Butter Microwave Popcorn' },
+  { id: 'b10', name: 'Coca-Cola', slug: 'coca-cola', category: 'Beverages', itemCount: 1, description: 'Refreshing Carbonated Soft Drinks' },
+  { id: 'b11', name: 'Bisleri', slug: 'bisleri', category: 'Beverages', itemCount: 1, description: 'Purified Mineral Water' },
+  { id: 'b12', name: 'Nescafe', slug: 'nescafe', category: 'Beverages', itemCount: 1, description: 'Bold Instant Soluble Coffee' },
+  { id: 'b13', name: 'Pond\'s', slug: 'ponds', category: 'Personal Care', itemCount: 1, description: 'Bright Beauty Skincare & Face Wash' },
+  { id: 'b14', name: 'Nivea', slug: 'nivea', category: 'Personal Care', itemCount: 1, description: 'Soft Refreshing Body Cream' },
+  { id: 'b15', name: 'Dove', slug: 'dove', category: 'Personal Care', itemCount: 1, description: '1/4 Moisturising Cream Beauty Bar' },
+  { id: 'b16', name: 'Colgate', slug: 'colgate', category: 'Personal Care', itemCount: 1, description: 'Whole Mouth Antibacterial Dental Care' },
+  { id: 'b17', name: 'Head & Shoulders', slug: 'head-shoulders', category: 'Personal Care', itemCount: 1, description: 'Anti-Dandruff Deep Cleansing Shampoo' },
+  { id: 'b18', name: 'Vaseline', slug: 'vaseline', category: 'Personal Care', itemCount: 1, description: 'Deep Moisture Body Lotion' },
+  { id: 'b19', name: 'Dettol', slug: 'dettol', category: 'Personal Care', itemCount: 1, description: '100% Germ Protection Liquid Handwash' },
+  { id: 'b20', name: 'Gillette', slug: 'gillette', category: 'Personal Care', itemCount: 1, description: 'Mach3 Precision Razor Blades' },
+  { id: 'b21', name: 'Surf Excel', slug: 'surf-excel', category: 'Household Needs', itemCount: 1, description: 'Easy Wash Stain Removal Detergent' },
+  { id: 'b22', name: 'Vim', slug: 'vim', category: 'Household Needs', itemCount: 1, description: '100 Lemon Degreasing Dishwash Gel' },
+  { id: 'b23', name: 'Harpic', slug: 'harpic', category: 'Household Needs', itemCount: 1, description: 'Disinfectant Toilet Cleaner' },
+  { id: 'b24', name: 'Lizol', slug: 'lizol', category: 'Household Needs', itemCount: 1, description: 'Disinfectant Surface Floor Cleaner' },
+  { id: 'b25', name: 'Colin', slug: 'colvin', category: 'Household Needs', itemCount: 1, description: 'Glass & Surface Cleaner Spray' },
+  { id: 'b26', name: 'Premier', slug: 'premier', category: 'Household Needs', itemCount: 1, description: 'Kitchen Towel Tissue Rolls' },
+  { id: 'b27', name: 'EcoCare', slug: 'ecocare', category: 'Household Needs', itemCount: 1, description: 'Heavy Duty Leak-Proof Garbage Bags' },
+  { id: 'b28', name: 'Scotch-Brite', slug: 'scotch-brite', category: 'Household Needs', itemCount: 1, description: 'Sponge Scrub Dishwashing Pads' }
+];
+
+export default BRANDS;

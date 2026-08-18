@@ -1,0 +1,182 @@
+.hero-banner-section {
+  background: var(--color-hero-bg);
+  padding: 2.25rem 0;
+  border-bottom: 1px solid var(--color-border-light);
+  overflow: hidden;
+}
+
+.hero-banner-inner {
+  gap: var(--spacing-xl);
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 550px;
+}
+
+.hero-tagline {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--color-primary-dark);
+  letter-spacing: 0.1em;
+  margin-bottom: 0.75rem;
+}
+
+.tagline-dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-primary);
+  border-radius: var(--radius-full);
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.75rem;
+}
+
+.highlight-text {
+  color: var(--color-primary);
+}
+
+.hero-subtitle {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.hero-features-row {
+  margin-bottom: 1.75rem;
+}
+
+.hero-badge-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badge-icon-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: var(--color-primary);
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+  box-shadow: var(--shadow-sm);
+}
+
+.badge-title {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.badge-sub {
+  font-size: 0.65rem;
+  color: var(--color-text-muted);
+}
+
+.hero-actions {
+  display: flex;
+}
+
+.hero-graphic-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 480px;
+}
+
+.hero-grocery-img {
+  width: 100%;
+  max-width: 420px;
+  height: 320px;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-md);
+  object-fit: cover;
+}
+
+.delivery-badge-floating {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background: white;
+  border-radius: var(--radius-full);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+  border: 3px solid var(--color-primary-soft);
+  z-index: 10;
+}
+
+.badge-number {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-primary-dark);
+  line-height: 1;
+}
+
+.badge-label {
+  font-size: 0.5rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+  .hero-banner-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-title {
+    font-size: 2.25rem;
+  }
+
+  .hero-features-row {
+    justify-content: center;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .hero-grocery-img {
+    height: 240px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 1.85rem;
+  }
+
+  .hero-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

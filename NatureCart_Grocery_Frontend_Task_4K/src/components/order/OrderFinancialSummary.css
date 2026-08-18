@@ -1,0 +1,136 @@
+/* OrderFinancialSummary Component Styles */
+
+.financial-summary-card {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border, #e2e8f0);
+  border-radius: var(--radius-xl, 16px);
+  padding: 1.5rem 1.75rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  margin-bottom: 1.5rem;
+}
+
+.summary-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--color-border-light, #edf2f7);
+}
+
+.summary-header-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-md, 8px);
+  background-color: var(--color-primary-soft, #e8f5e9);
+  color: var(--color-primary, #2e7d32);
+}
+
+.summary-header-title {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--color-text-primary, #1e293b);
+  margin: 0;
+}
+
+.summary-rows-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.summary-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+}
+
+.row-label {
+  color: var(--color-text-muted, #64748b);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.row-value {
+  color: var(--color-text-primary, #1e293b);
+  font-weight: 700;
+}
+
+.free-delivery-badge {
+  color: var(--color-primary, #2e7d32);
+  font-weight: 800;
+  background-color: var(--color-primary-soft, #e8f5e9);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.coupon-discount-row {
+  color: var(--color-primary, #2e7d32);
+}
+
+.coupon-discount-row .row-label {
+  color: var(--color-primary, #2e7d32);
+  font-weight: 700;
+}
+
+.discount-amount {
+  color: var(--color-primary, #2e7d32);
+  font-weight: 800;
+}
+
+.summary-divider {
+  height: 1px;
+  background-color: var(--color-border-light, #edf2f7);
+  margin: 0.25rem 0;
+}
+
+.summary-total-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+.total-label-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.total-label {
+  font-size: 0.9375rem;
+  font-weight: 800;
+  color: var(--color-text-primary, #1e293b);
+}
+
+.tax-inclusive-tag {
+  font-size: 0.6875rem;
+  color: var(--color-text-muted, #94a3b8);
+}
+
+.total-amount-display {
+  font-size: 1.625rem;
+  font-weight: 900;
+  color: var(--color-primary-dark, #1b5e20);
+  letter-spacing: -0.02em;
+}
+
+.cod-notice-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: #fefce8;
+  border: 1px solid #fef08a;
+  color: #854d0e;
+  padding: 0.6rem 0.85rem;
+  border-radius: var(--radius-md, 8px);
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}

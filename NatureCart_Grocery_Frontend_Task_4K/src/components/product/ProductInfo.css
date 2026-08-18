@@ -1,0 +1,42 @@
+.product-info-column {
+  width: 100%;
+}
+
+.stock-status-pill {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+}
+
+.stock-status-pill.in-stock {
+  background-color: var(--color-primary-soft);
+  color: var(--color-primary-dark);
+}
+
+.stock-status-pill.out-of-stock {
+  background-color: var(--color-discount-bg);
+  color: var(--color-discount-red);
+}
+
+.price-hierarchy-box {
+  background-color: var(--color-bg-cream);
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border-light);
+  width: fit-content;
+}
+
+.wishlist-action-btn.wishlisted {
+  border-color: var(--color-discount-red);
+  background-color: #fff0f0;
+}
+
+.buy-now-btn {
+  background-color: var(--color-primary-dark);
+  color: white;
+}
+
+.buy-now-btn:hover:not(:disabled) {
+  background-color: var(--color-primary-deep);
+}
